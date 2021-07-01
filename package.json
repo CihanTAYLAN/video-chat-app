@@ -1,0 +1,28 @@
+{
+	"name": "videocallapp",
+	"version": "0.0.0",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"start": "node server.js",
+		"dev": "nodemon server.js",
+		"debug": "DEBUG=myapp:* npm start"
+	},
+	"dependencies": {
+		"body-parser": "^1.18.3",
+		"cookie-parser": "~1.4.4",
+		"crypto": "^1.0.1",
+		"dotenv": "^8.2.0",
+		"express": "~4.16.1",
+		"express-session": "^1.17.1",
+		"http-errors": "~1.6.3",
+		"jsonwebtoken": "^8.5.1",
+		"mongodb": "^3.6.6",
+		"mongoose": "^5.12.10",
+		"mongose": "^0.0.2-security",
+		"nodemon": "^2.0.7",
+		"react-advanced-form": "^0.5.7",
+		"socketio": "^1.0.0",
+		"uuid": "^8.3.2"
+	}
+}
