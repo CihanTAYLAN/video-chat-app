@@ -38,3 +38,5 @@ export class VideoGateway
     this.logger.log(`Client connected: ${client.id}`);
   }
 }
+
+export { VideoGateway as AppGateway };
